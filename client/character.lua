@@ -524,3 +524,5 @@ CreateThread(function()
     end
     SetEntityInvincible(PlayerPedId(), false)
 end)
+
+-- some changes
