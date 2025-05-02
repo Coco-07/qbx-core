@@ -38,7 +38,7 @@ return {
         '🕘',
     },
 
-    ---Use the adaptive card generator that is defined below.
+    ---Use the adaptive card generator that is defined below. fixed
     useAdaptiveCard = true,
 
     ---@class GenerateCardParams
