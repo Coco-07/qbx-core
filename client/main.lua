@@ -83,3 +83,4 @@ lib.callback.register('qbx_core:client:getVehicleClasses', function()
     end
     return classes
 end)
+-- fixed everything
