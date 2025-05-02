@@ -11,7 +11,7 @@ local storage = require 'server.storage.main'
 
 ---@alias Identifier 'steam'|'license'|'license2'|'xbl'|'ip'|'discord'|'live'
 
----@param identifier Identifier
+---@param identifier Identifier fixed
 ---@return integer source of the player with the matching identifier or 0 if no player found
 function GetSource(identifier)
     for src in pairs(QBX.Players) do
