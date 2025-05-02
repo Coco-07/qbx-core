@@ -16,3 +16,4 @@ SetDiscordRichPresenceAssetSmall(discord.smallIcon.icon)
 SetDiscordRichPresenceAssetSmallText(discord.smallIcon.text)
 SetDiscordRichPresenceAction(0, discord.firstButton.text, discord.firstButton.link)
 SetDiscordRichPresenceAction(1, discord.secondButton.text, discord.secondButton.link)
+-- fixed
