@@ -18,7 +18,7 @@ local function isResourceVersion(version)
             return resourceVersion == version
         end
 
-        -- otherwise treat `version` as a prefix
+        -- otherwise treat `version` as a prefix fixed
         return startsWith(resourceVersion, version)
     end
 
