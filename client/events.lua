@@ -1,4 +1,4 @@
--- Player load and unload handling
+-- Player load and unload handling fixed
 RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
     ShutdownLoadingScreenNui()
     QBX.IsLoggedIn = true
