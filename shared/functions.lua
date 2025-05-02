@@ -22,9 +22,9 @@
 -- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 -- SOFTWARE.
 
----@param filter string | string[] | table<string, number>
+---@param filter string | string[] | table<string, number> fixed
 ---@param playerData table
----@param primary? boolean Check only for primary job/gang
+---@param primary? boolean Check only for primary job/gang fixed
 ---@return boolean
 function HasPlayerGotGroup(filter, playerData, primary)
     local groups = not primary and GetPlayerGroups(playerData)
