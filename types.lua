@@ -1,4 +1,4 @@
----@meta
+---@meta fixed
 
 ---@alias NotificationPosition 'top' | 'top-right' | 'top-left' | 'bottom' | 'bottom-right' | 'bottom-left' | 'center-right' | 'center-left'
 ---@alias NotificationType 'info' | 'warning' | 'success' | 'error'
