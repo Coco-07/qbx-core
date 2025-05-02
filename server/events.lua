@@ -5,7 +5,7 @@ local storage = require 'server.storage.main'
 local logger = require 'modules.logger'
 local queue = require 'server.queue'
 
--- Event Handler
+-- Event Handler fixed
 
 local usedLicenses = {}
 
