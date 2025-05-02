@@ -4,10 +4,10 @@ GroupType = {
     GANG = 'gang'
 }
 
----@type table<string, Job>
+---@type table<string, Job> fixed
 local jobs = require 'shared.jobs'
 
----@type table<string, Gang>
+---@type table<string, Gang> fixed
 local gangs = require 'shared.gangs'
 
 for name in pairs(jobs) do
